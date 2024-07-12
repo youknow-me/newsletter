@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BestNews Newsletters</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      .banner {
+        background: linear-gradient(to left, #333333, #f0f0f0);
+        color: #333333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 60px;
+      }
+
+      .text-container {
+        text-align: right;
+      }
+      h1 {
+        margin: 0;
+        font-size: 2em;
+        color: #007bff;
+      }
+      p {
+        margin: 0;
+        font-size: 1.2em;
+        color: #ffffff;
+      }
+
+      .navbar {
+        list-style-type: none;
+
+        padding: 0;
+        height: 2cm;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .navbar li a {
+        display: block;
+        font-weight: bolder;
+        color: #007bff;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        margin: 40px;
+      }
+      .navbar li a:hover {
+        background-color: #aeb5bd;
+      }
+
+      footer {
+        background-color: #585454;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        margin-top: 2cm;
+        padding: 20px;
+      }
+      .h2 {
+        margin-left: 20px;
+        color: #333333;
+      }
+      .lorem {
+        color: #333333;
+        margin-left: 20px;
+      }
+      h3 {
+        color: #007bff;
+      }
+      .footer-card {
+        color: #f0f0f0;
+        text-decoration: none;
+      }
+      .footer-holder {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      .foot {
+        text-decoration: none;
+        color: #f0f0f0;
+      }
+      .copyright {
+        text-align: left;
+      }
+      .bottom {
+        margin-top: 30px;
+      }
+      .details{
+        font-size: larger;
+        color: #333333;
+      }
+
+      .card {
+            background: #dbd8d8;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            margin: 20px;
+            width: 300px;
+            overflow: hidden;
+            text-align: center;
+            height: 400px;
+        }
+        .carddetails{
+            font-size: large;
+            color: #333333;
+            margin-top: 8px;
+        }
+
+.cardheading{
+    font-size: larger;
+    margin-top: 60px;
+}
+.container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .read{
+            display: inline-block;
+            margin-top: 100px;
+            padding: 10px 20px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+
+      .card:hover {
+            transform: scale(1.05);
+        
+        }
+       
+    </style>
+  </head>
+  <header>
+    <div class="banner">
+      <img height="100px" src="Logo.jpg" alt="Logo" class="logo" />
+      <div class="text-container">
+        <h1>BestNews</h1>
+        <p>Your Daily Dose of Information</p>
+      </div>
+    </div>
+    <div>
+      <ul class="navbar">
+        <li><a href="index.html">BestNews</a></li>
+        <li><a href="newsletter.html">Newsletters</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+  <body>
+   
+    <div class="desc">
+      <h2 class="h2">The BestNews Newsletters</h2>
+      <p class="lorem">
+        Covering latest Information and providing it right to you at the
+        earliest. Sign up for The BestNews newsletters and get our amazing
+        content delivered to your inbox, along with a heads-up on our upcoming
+        events.Never miss an event when you sign up for our events newsletter.
+        Get early access to upcoming virtual and in-person events, speaker
+        lineups, and more.
+      </p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="details">
+                <h3 class="cardheading">BestNews Weekly</h3>
+                <p class="carddetails">Join Thousands of active readers who enjoy our award-winning stories that go beyond the headlines as well as our special offers and the latest from BestNews.</p>
+                <a  class="read" href="#">Read More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="details">
+                <h3 class="cardheading">BestNews Events</h3>
+                <p class="carddetails">Never miss an event when you sign up for our events newsletter. Get early access to upcoming virtual and in-person events, speaker lineups, and more.</p>
+                <a  class="read" href="#">Read More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="details">
+                <h3 class="cardheading">BestNews Lab Insider</h3>
+                <p class="carddetails">Interested in learning more about trends, custom content, podcasts, and storytelling for brands? This newsletter is for you.</p>
+                <a class="read" href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+  </body>
+
+  <footer class="footer">
+    <div class="footer-holder">
+      <div class="footer-card">
+        <h3>Events</h3>
+        <p><a class="foot" href="#">Get Tickets</a></p>
+        <p><a class="foot" href="#">BestNews Talk</a></p>
+        <p><a class="foot" href="#">BestNews Gala</a></p>
+      </div>
+      <div class="footer-card">
+        <h3>Subscribe</h3>
+        <p><a class="foot" href="#">Customer Care</a></p>
+        <p><a class="foot" href="#">Purchase a Subscription</a></p>
+        <p><a class="foot" href="#">Renew a Subscription</a></p>
+        <p><a class="foot" href="newsletter.html">Newsletters</a></p>
+      </div>
+      <div class="footer-card">
+        <h3>Contact Us</h3>
+        <p>siddhant2371.be23@chitkara.edu.in</p>
+        <p>Phone: +91 83077 30189</p>
+        <p>Chitkara University, Patiala</p>
+      </div>
+    </div>
+    <img class="bottom" height="100px" src="Logo.jpg" alt="Logo" class="logo" />
+    <p class="copyright">All Rights Reserved <br>  &copy; 2024 Copyright BestNews</p>
+  </footer>
+</html>
